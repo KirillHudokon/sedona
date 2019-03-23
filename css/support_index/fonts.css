@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'ptsans';
+
+    src: url("../fonts/web/ptsans.woff") format("woff"),
+    url("../fonts/web/ptsans.woff2") format("woff");
+
+    src: url("../fonts/ptsans/PTSans/PTC55F.ttf") format('truetype'),
+    url("../fonts/ptsans/PTSans/PTC75F.ttf") format('truetype'),
+    url("../fonts/ptsans/PTSans/PTN57F.ttf") format('truetype'),
+    url("../fonts/ptsans/PTSans/PTN77F.ttf") format('truetype'),
+    url("../fonts/ptsans/PTSans/PTS55F.ttf") format('truetype'),
+    url("../fonts/ptsans/PTSans/PTS56F.ttf") format('truetype'),
+    url("../fonts/ptsans/PTSans/PTS75F.ttf") format('truetype'),
+    url("../fonts/ptsans/PTSans/PTS76F.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'ptsansbold';
+
+    src: url("../fonts/web/ptsansbold.woff") format("woff"),
+    url("../fonts/web/ptsansbold.woff2") format("woff");
+}

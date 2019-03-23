@@ -1,0 +1,12 @@
+.toblock{
+    display: block!important;
+}
+.toflex{
+    display: flex!important;
+}
+.toNone{
+    display: none!important;
+}
+.style{
+    background: #572108!important;
+}

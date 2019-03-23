@@ -1,0 +1,109 @@
+.navigation .logo{
+    z-index: 9;
+}
+.section-menu{
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+}
+.section-menu .blur{
+    background: url("../../img/background photo.png");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    min-height: 300px;
+    overflow: hidden;
+    filter: blur(2px) brightness(0.7);
+}
+.section-menu .content-menu1{
+    text-transform: uppercase;
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-family: ptsans, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-menu1 .flexbox-container1{
+    display: flex;
+    justify-content: space-around;
+    line-height: 45px;
+}
+.content-menu1 .flexbox-container1 .menu3{
+    margin-left: 70px;
+}
+.content-menu1 .flexbox-container1:first-child .menu3:first-child{
+    margin-left: -10px;
+}
+.content-menu1 .flexbox-container1:first-child .menu3:nth-child(2){
+    margin-left: 115px;
+}
+.content-menu1 .flexbox-container1 .menu3 h2{
+    margin-top: -20px;
+    padding-bottom: 20px;
+    font-family: ptsansbold, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.flexbox-container1 .menu3 li{
+    display: flex;
+    align-items: center;
+
+}
+
+.flexbox-container1 .menu3 .none{
+    background-image: url("../../img/checkbox-off.png");
+    width: 23px;
+    height: 23px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.flexbox-container1 .menu3 .block{
+    background-image: url("../../img/checkbox-on (1).png");
+    width: 27px;
+    height: 23px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.flexbox-container1:last-child{
+    text-align: center;
+}
+.flexbox-container1:last-child .menu3 h2{
+    margin-top: -37px;
+}
+.flexbox-container1 .flexbox-cont{
+    margin-top: -10px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 2px;
+    justify-content: space-around;
+    min-width: 250px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.flexbox-container1 .flexbox-cont::after{
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background: white;
+    top:25%;
+    right: 50%;
+
+}
+.flexbox-container1 .menu3 .view{
+    background: none;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 35px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.flexbox-container1 .menu3 .view:hover{
+    background: #81b3d2;
+}

@@ -1,0 +1,35 @@
+.search-in{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b9b9b9;
+}
+.search-in .sort .first-sort{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: ptsans, sans-serif;
+}
+.sort .first-sort .searching1{
+    font-size: 20px;
+    font-family: ptsansbold,sans-serif;
+    margin-right: 35px;
+}
+.sort .first-sort .searching2{
+    font-size: 15px;
+    margin-right: 40px;
+
+}
+.sort .first-sort .searching3{
+    cursor: pointer;
+    font-size: 13px;
+    margin-right: 20px;
+}
+.active1{
+    color: #81b3d2;
+}
+.noneactive{
+    color: grey;
+    border-bottom: 1px dashed grey;
+}
